@@ -19,7 +19,9 @@ Here you'll find(soon) more about my skills, knowledge and how I can help you!
 
 ## Courses
 
-- [Proxmox VE 8.x](https://www.udemy.com/course/proxmox-ve-8x/)
+I have two courses published, where I teach about Virtualization and a little introduction about Firewalls. Both courses was implemented over open source platforms. I show how to use Virtualization in three scenarios wit Proxmox Virtualization Plattform, and how to use OPNSense to build firewalls to protect the network to beginners.
+
+- [ Proxmox VE 8.x](https://www.udemy.com/course/proxmox-ve-8x/)
 
 If you're interested in learning about virtualization, you've come to the right place. If you'd also like to learn about Proxmox, you're in the right place.
 
