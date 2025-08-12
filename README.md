@@ -1,6 +1,9 @@
 # apscherbach.github.io
 Personal and professional repository from Adriano P Scherbach
 
+![Photo of Adriano.](/assets/img/adriano.jpg)
+
+
 ## Projects and Skills
 
 
@@ -8,8 +11,8 @@ Personal and professional repository from Adriano P Scherbach
 
 ## Courses
 
-- [https://www.udemy.com/course/proxmox-ve-8x/|Proxmox VE 8.x - Udemy]
-
+- [Proxmox VE 8.x](https://www.udemy.com/course/proxmox-ve-8x/)
+- [Guia do Firewall OPNSense](https://www.udemy.com/course/guia-opnsense/)
 
 ## Old Projects
 
