@@ -20,9 +20,9 @@ Here you'll find(soon) more about my skills, knowledge and how I can help you!
 In this section, I hope to show you how much knowledge and experience I have. I don't intend to be arrogant or boastful, but simply to present my capabilities, which I hope will be useful to you.
 I implement this projects based on my daily work. I can't show data from where I stay. So, I show you some of my skills through this "projects".
 
-- [Project 1](/projects/one)(soon)
-- [Project 2](/projects/two)(soon)
-- [Project 3](/projects/three)(a lot of soon)
+- [Project 1](/projects/1.md)(soon)
+- [Project 2](/projects/2.md)(soon)
+- [Project 3](/projects/3.md)(a lot of soon)
 
 ## Courses
 
@@ -66,7 +66,7 @@ I started here with the first team approved in a public service exam. When we st
 I actively participated in the planning, design and execution of the entire structuring of IT services in the area of networks and infrastructure, distributed over three cities.
 From 2019 to 2022 I was Director of IT Architecture and Security, where I was responsible for a team of 5 people who maintained the entire Network Structure, Firewalls, and services such as Private Cloud, Authentication (Active Directory), Virtualization, Backup, Wireless Networks, Configuration Management and others.
 
-[Tell-me more](/cade/ufsb.md)
+[Tell-me more](/ufsb/ufsb.md)
 
 #### SBPC(Brazilian Society for the Advancement of Science) 2016
 
@@ -75,7 +75,7 @@ I was responsible for the design and implementation of the entire network struct
 The resources implemented for the event included a redundant network firewall, dedicated active monitoring, and wired and wireless network integration to serve the event's diverse audiences.
 The structure was considered one of the most stable in the event's history.
 
-[Tell-me more](/cade/sbpc2016.md)
+[Tell-me more](/ufsb/sbpc2016.md)
 
 
 ### SCMI - Santa Casa de Misericórdia de Itabuna(Holy House of Mercy of Itabuna)
@@ -83,7 +83,7 @@ The structure was considered one of the most stable in the event's history.
 When I started here, we experienced a significant growth boom. We went from 100 to 500 desktops, a lot of new services, ERP changing and going from two to three sites (three hospitals in the managed network).
 I learned a lot and I am very grateful for all the experience I gained in this critical environment, where lives are at stake.
 
-[Tell-me more](/cade/scmi.md)
+[Tell-me more](/scmi/scmi.md)
 
 
 ## About me
@@ -91,3 +91,5 @@ I learned a lot and I am very grateful for all the experience I gained in this c
 
 
 ## Contact
+
+For now, mainly on [Linkedin](https://www.linkedin.com/in/adriano-p-scherbach-0175aa244/)
