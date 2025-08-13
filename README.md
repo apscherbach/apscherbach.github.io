@@ -2,6 +2,8 @@
 
 Personal and professional repository of Adriano P Scherbach | IT Analyst, IT Infrastructure and Services Architect.
 
+Keywords: Linux, Debian-based Linux/Ubuntu/Red Hat-based Linux/Kubernetes/Databases/Scripting
+
 Here you'll find(soon) more about my skills, knowledge and how I can help you!
 
 ![Photo of Adriano.](/assets/img/adriano.jpg)
