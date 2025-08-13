@@ -8,7 +8,7 @@ Here you'll find(soon) more about my skills, knowledge and how I can help you!
 
 ### Professional Background
 
-- Bachelor of Computer Science
+- Bachelor in Computer Science
 - Software Process Improvement Specialist
 - Open source and Liux Entusiast
 - 20 years of experience in Linux
@@ -23,7 +23,7 @@ In this section, I hope to show you how much knowledge and experience I have. I 
 
 ## Courses
 
-I have two courses published, where I teach about Virtualization and a little introduction about Firewalls. Both courses was implemented over open source platforms. I show how to use Virtualization in three scenarios wit Proxmox Virtualization Plattform, and how to use OPNSense to build firewalls to protect the network to beginners.
+I have two courses published, where I teach about Virtualization and a little introduction about Firewalls. Both courses was implemented over open source platforms. I show how to use Virtualization in three scenarios(standalone servers, dual servers environments and hyperconvergence) with Proxmox Virtualization Plattform, and how to use OPNSense to build firewalls to protect the network to beginners.
 
 - [ Proxmox VE 8.x](https://www.udemy.com/course/proxmox-ve-8x/)
 
