@@ -9,7 +9,7 @@ Here you'll find(soon) more about my skills, knowledge and how I can help you!
 ### Professional Background
 
 - Bachelor in Computer Science
-- Software Process Improvement Specialist
+- Software Proccess Improvement Specialist
 - Open source and Liux Entusiast
 - 20 years of experience in Linux
 
