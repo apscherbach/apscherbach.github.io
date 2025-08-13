@@ -10,16 +10,17 @@ Here you'll find(soon) more about my skills, knowledge and how I can help you!
 
 - Bachelor in Computer Science
 - Software Proccess Improvement Specialist
-- Open source and Liux Entusiast
+- Open source and Linux Entusiast
 - 20 years of experience in Linux
 
 ## Projects and Skills
 
 In this section, I hope to show you how much knowledge and experience I have. I don't intend to be arrogant or boastful, but simply to present my capabilities, which I hope will be useful to you.
+I implement this projects based on my daily work. I can't show data from where I stay. So, I show you some of my skills through this "projects".
 
-- [Project 1](/projects/one)
-- [Project 2](/projects/two)
-- [Project 3](/projects/three)
+- [Project 1](/projects/one)(soon)
+- [Project 2](/projects/two)(soon)
+- [Project 3](/projects/three)(a lot of soon)
 
 ## Courses
 
