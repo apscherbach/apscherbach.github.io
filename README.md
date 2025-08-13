@@ -53,7 +53,7 @@ Here I present my older past expeiriences. Maybe you find interesting know how I
 I selected some of chalenges I think merecem be remebered. And, no, I do'nt have register of all that. In some cases, I can't have registers, cause of ethical or contract terms.
 Let's begin where I worked from recent to more older:
 
-### CADE - Conselho Administrativo de Defesa Econôminica(Administrative Council for Economic Defense)
+### (Current)CADE - Conselho Administrativo de Defesa Econôminica(Administrative Council for Economic Defense)
 
 The highest body in the area of competition defense in Brazil. I want to work here from a very high sense of make something that really bring social results.
 After my previous experience, I certain will contribute more here.
@@ -80,6 +80,8 @@ The structure was considered one of the most stable in the event's history.
 
 ### SCMI - Santa Casa de Misericórdia de Itabuna(Holy House of Mercy of Itabuna)
 
+When I started here, we experienced a significant growth boom. We went from 100 to 500 desktops, a lot of new services and going from two to three sites (three hospitals in the managed network).
+I learned a lot and I am very grateful for all the experience I gained in this critical environment, where lives are at stake.
 
 [Tell-me more](/cade/scmi.md)
 
