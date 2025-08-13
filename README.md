@@ -14,8 +14,11 @@ Here you'll find(soon) more about my skills, knowledge and how I can help you!
 
 ## Projects and Skills
 
+In this section, I hope to show you how much knowledge and experience I have. I don't intend to be arrogant or boastful, but simply to present my capabilities, which I hope will be useful to you.
 
-
+- [Project 1](/projects/one)
+- [Project 2](/projects/two)
+- [Project 3](/projects/three)
 
 ## Courses
 
