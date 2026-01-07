@@ -4,22 +4,12 @@
   projects:
     - name: Proxmox VE 8.x
       homepage: https://www.udemy.com/course/proxmox-ve-8x/
-      description: >
-      If you're interested in learning about virtualization, you've come to the right place. If you'd also like to learn about Proxmox, you're in the right place.
-
-In this course, we'll learn about virtualization using a high-level open source tool, Proxmox VE version 8.x (PVE), focusing on implementing hyper-converged environments!
-The course is designed to develop activities sequentially, where actions performed in one class have an impact on subsequent classes. This is how the course context is set up and presented.
-Demonstração de orquestração de containers usando Kubernetes, com implantação de um cluster local via Minikube, configuração de Helm charts e integração com Prometheus/Grafana para monitoramento em tempo real. <a href="https://github.com/seunome/projeto-k8s-demo">Veja o código</a>.
+      description: If you're interested in learning about virtualization, you've come to the right place. If you'd also like to learn about Proxmox, you're in the right place. In this course, we'll learn about virtualization using a high-level open source tool, Proxmox VE version 8.x (PVE), focusing on implementing hyper-converged environments! The course is designed to develop activities sequentially, where actions performed in one class have an impact on subsequent classes. This is how the course context is set up and presented. Demonstração de orquestração de containers usando Kubernetes, com implantação de um cluster local via Minikube, configuração de Helm charts e integração com Prometheus/Grafana para monitoramento em tempo real. <a href="https://github.com/seunome/projeto-k8s-demo">Veja o código</a>.
       #github: seunome/projeto-k8s-demo  # Link para repo GitHub
       icon: fab fa-kubernetes
     - name: Guide of OPNSense Firewall
       homepage: https://www.udemy.com/course/guia-opnsense/
-      description: >
-I'd like to welcome you in advance to our Basic Guide to the OPNSENSE Firewall, where we'll explore this tool and develop skills for your professional or personal development.
-
-In this course, we'll learn about the OPNSENSE Firewall and explore some everyday contexts of firewall services in the network. This will help you get the most out of using an open source firewall by applying basic information security rules and aligning it with business needs.
-
-Believe me, starting with the basics will put you ahead of the curve.
+      description: I'd like to welcome you in advance to our Basic Guide to the OPNSENSE Firewall, where we'll explore this tool and develop skills for your professional or personal development. In this course, we'll learn about the OPNSENSE Firewall and explore some everyday contexts of firewall services in the network. This will help you get the most out of using an open source firewall by applying basic information security rules and aligning it with business needs. Believe me, starting with the basics will put you ahead of the curve.
       #github: seunome/linux-automation-demo
       icon: fab fa-linux
     # Adicione mais habilidades/projetos atuais aqui, focando em demos
