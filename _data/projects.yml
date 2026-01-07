@@ -1,0 +1,38 @@
+- name: Habilidades e Projetos Atuais
+  icon: fas fa-tools  # Icon genérico para skills; mude para algo como fab fa-kubernetes
+  projects:
+    - name: Setup de Cluster Kubernetes com Monitoramento
+      description: Demonstração de orquestração de containers usando Kubernetes, com implantação de um cluster local via Minikube, configuração de Helm charts e integração com Prometheus/Grafana para monitoramento em tempo real. <a href="https://github.com/seunome/projeto-k8s-demo">Veja o código</a>.
+      github: seunome/projeto-k8s-demo  # Link para repo GitHub
+      icon: fab fa-kubernetes
+    - name: Automatização de Infraestrutura Linux
+      description: Scripts em Bash e Ansible para provisionamento de servidores Linux, incluindo hardening de segurança e setup de virtualização com KVM. Mostra capacidade em automação diária.
+      github: seunome/linux-automation-demo
+      icon: fab fa-linux
+    # Adicione mais habilidades/projetos atuais aqui, focando em demos
+
+- name: Projetos Mais Antigos
+  icon: fas fa-history  # Icon para histórico
+  projects:
+    - name: Migração de Ambientes Virtualizados
+      description: Envolvido em desafios de migração de VMs de VMware para Proxmox, resolvendo issues de compatibilidade e downtime mínimo. Ajudou no crescimento profissional em virtualização escalável.
+      github: seunome/old-virtualization-project  # Se tiver repo antigo
+      icon: fas fa-server
+    - name: Sistema de Monitoramento Inicial com ELK Stack
+      description: Implementação precoce de stack ELK (Elasticsearch, Logstash, Kibana) para logging e alerting em ambientes Linux, enfrentando desafios de escala e integração.
+      description: Um dos primeiros grandes desafios, que aprimorou skills em troubleshooting.
+      icon: fas fa-search
+    # Adicione mais projetos antigos, destacando desafios e crescimento
+
+- name: Cursos Publicados
+  icon: fas fa-graduation-cap  # Icon para educação
+  projects:
+    - name: Curso de Kubernetes Básico
+      description: Curso online na Udemy cobrindo fundamentos de orquestração de containers, deployments e scaling. Ideal para iniciantes em infra cloud-native.
+      homepage: https://www.udemy.com/seu-curso-kubernetes/ # Link direto para o curso
+      icon: fab fa-udemy
+    - name: Curso de Monitoramento com Prometheus e Grafana
+      description: Curso prático na Udemy sobre setup de monitoring em ambientes Kubernetes e Linux, com dashboards customizados e alertas.
+      homepage: https://www.udemy.com/seu-curso-monitoramento/  # Link para o segundo curso
+      icon: fab fa-udemy
+    # Adicione mais se crescer a lista

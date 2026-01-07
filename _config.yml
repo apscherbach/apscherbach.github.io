@@ -1,0 +1,15 @@
+remote_theme: tedivm/jekyll-theme-portfolio
+title: Adriano P. Scherbach - Portfolio de Projetos de TI
+author: Adriano P. Scherbach
+email: apscherbach.tec@gmail.com
+description: >
+  Profissional de TI especializado em infraestrutura: Linux, Kubernetes, monitoramento e virtualização. 
+  Aqui você encontra meus projetos demonstrativos, habilidades atuais, conquistas passadas e cursos online. 
+  Disponível para oportunidades nos EUA.
+homepage: https://apscherbach.github.io  # Ou outro site pessoal
+linkedin_username: adriano-p-scherbach-0175aa244  # Gera link automático para LinkedIn
+github_username: apscherbach  # Seu username GitHub para ícone
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
