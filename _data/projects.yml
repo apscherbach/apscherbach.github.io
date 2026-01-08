@@ -1,12 +1,12 @@
 - name: Habilidades e Projetos Atuais
   description: I have published two courses, where I teach about Virtualization and a little introduction about Firewalls. Both courses was implemented over open source platforms. I show how to use Virtualization in three scenarios(standalone servers, dual servers environments and hyper-convergence) with Proxmox Virtualization Platform, and how to use OPNSense to build firewalls to protect the network to beginners.
-  icon: fas fa-fire  # Icon genérico para skills; mude para algo como fab fa-kubernetes
+  icon: fab fa-solid fa-fire  # Icon genérico para skills; mude para algo como fab fa-kubernetes
   projects:
     - name: Proxmox VE 8.x
       homepage: https://www.udemy.com/course/proxmox-ve-8x/
       description: If you are interested in learning about virtualization, you have come to the right place. If you would also like to learn about Proxmox, you are in the right place. In this course, we will learn about virtualization using a high-level open source tool, Proxmox VE version 8.x (PVE), focusing on implementing hyper-converged environments! The course is designed to develop activities sequentially, where actions performed in one class have an impact on subsequent classes. This is how the course context is set up and presented.
       #github: seunome/projeto-k8s-demo  # Link para repo GitHub
-      icon: fab fa-computer
+      icon: fab fa-solid fa-server
     - name: Guide of OPNSense Firewall
       homepage: https://www.udemy.com/course/guia-opnsense/
       description: I would like to welcome you in advance to our Basic Guide to the OPNSENSE Firewall, where we will explore this tool and develop skills for your professional or personal development. In this course, we will learn about the OPNSENSE Firewall and explore some everyday contexts of firewall services in the network. This will help you get the most out of using an open source firewall by applying basic information security rules and aligning it with business needs. Believe me, starting with the basics will put you ahead of the curve.
