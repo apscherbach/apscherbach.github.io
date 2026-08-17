@@ -1,3 +1,0 @@
-# SCMI
-
-Under construction.

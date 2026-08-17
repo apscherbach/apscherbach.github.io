@@ -1,0 +1,154 @@
+{
+    "head": {
+        "title": {
+            "br": "Bem-vindo",
+            "en": "Welcome",
+            "es": "Bienvenido"
+        }
+    },
+    "header": {
+        "logo": {
+            "br": " APS",
+            "en": " APS",
+            "es": " APS"
+        },
+        "nav-item-start": {
+            "br": "Início",
+            "en": "Start",
+            "es": "Inicio"
+        },
+        "nav-item-menu": {
+            "br": "Cursos",
+            "en": "Courses",
+            "es": "Cursos"
+        },
+        "nav-item-testimonials": {
+            "br": "Depoimentos",
+            "en": "Testimonials",
+            "es": "Testimonios"
+        }
+    },
+    "home": {
+        "cta-title": {
+            "br": "<span>Domine</span> conceitos e tecnologias que impulsionam o mercado.",
+            "en": "<span>Master</span> the concepts and technologies driving the market.",
+            "es": "<span>Domina</span> los conceptos y las tecnologías que impulsan el mercado."
+        },
+        "cta-description": {
+            "br": "Cada nova tecnologia aprendida representa uma nova oportunidade. Invista em conhecimento, desenvolva novas competências e esteja preparado para acompanhar a constante evolução da área de TI através de cursos desenvolvidos para quem busca aprendizado prático e aplicável.",
+            "en": "Every new technology mastered represents a new opportunity. Invest in knowledge, develop new skills, and be prepared to keep pace with the constantly evolving IT field through courses designed for those seeking practical, applicable learning.",
+            "es": "Cada nueva tecnología que se domina representa una nueva oportunidad. Invierta en conocimientos, desarrolle nuevas habilidades y prepárese para seguir el ritmo del sector de las TI —en constante evolución— mediante cursos diseñados para quienes buscan un aprendizaje práctico y aplicable."
+        },
+        "cta-button": {
+            "br": "Ver Cursos",
+            "en": "Show Courses",
+            "es": "Ver Cursos"
+        }
+    },
+    "menu": {
+        "title": {
+            "br": "Cursos",
+            "en": "Courses",
+            "es": "Cursos"
+        },
+        "subtitle": {
+            "br": "Comece hoje mesmo",
+            "en": "Get started today!",
+            "es": "¡Empieza hoy mismo!"
+        },
+        "languages": {
+            "br": "Idiomas Disponíveis",
+            "en": "Available languages",
+            "es": "Idiomas disponibles"
+        },
+        "explorer": {
+	        "br": "Explorar",
+	        "en": "Discover",
+	        "es": "Explorar"
+    	},
+        "opnsense": {
+            "title": {
+	            "br": "Guia do Firewall OPNSense",
+                "en": "OPNsense Firewall Guide",
+                "es": "Guía del Firewall OPNsense"
+	        },
+            "description": {
+                "br": "Nunca foi tão fácil explorar uma nova ferramenta de Firewall!",
+                "en": "It has never been easier to explore a new Firewall tool!",
+                "es": "¡Explorar una nueva herramienta de Firewall nunca ha sido tan fácil!"
+            }
+        },
+        "pve8": {
+            "title": {
+                "br": "Proxmox VE 8.x - do Básico ao Avançado",
+                "en": "Proxmox VE 8.x - From Basic to Advanced",
+                "es": "Proxmox VE 8.x: De lo básico a lo avanzado"
+            },
+            "description": {
+                "br": "Domine essa ferramenta incrível e os seus recursos avançados para virtualização com alta disponibilidade!",
+                "en": "Master this incredible tool and its advanced features for high-availability virtualization!",
+                "es": "¡Domina esta increíble herramienta y sus funciones avanzadas para la virtualización de alta disponibilidad!"
+            }
+        },
+        "pve9-intro": {
+            "title": {
+                "br": "Virtualização com Proxmox VE 9",
+                "en": "Virtualization with Proxmox VE 9",
+                "es": "Virtualización con Proxmox VE 9"
+            },
+            "description": {
+                "br": "A melhor versão do Proxmox é a que você implanta com confiança!",
+                "en": "The best version of Proxmox is the one you deploy with confidence!",
+                "es": "¡La mejor versión de Proxmox es la que implementas con confianza!"
+            }
+        },
+        "pve9-clusters": {
+            "title": {
+                "br": "Proxmox VE 9: Clusters",
+                "en": "Proxmox VE 9: Clusters",
+                "es": "Proxmox VE 9: Clusters"
+            },
+            "description": {
+                "br": "Resiliência não é sobre evitar a falha, é sobre sobreviver a ela.",
+                "en": "Resilience isn't about avoiding failure; it's about surviving it.",
+                "es": "La resiliencia no se trata de evitar el fracaso, sino de sobrevivir a él."
+            }
+        }
+    },
+    "testimonials": {
+        "title": {
+            "br": "Avaliações",
+            "en": "Reviews",
+            "es": "Reseñas"
+        },
+        "subtitle": {
+            "br": "Veja nosso impacto!",
+            "en": "See our impact!",
+            "es": "¡Vea nuestro impacto!"
+        }
+    },
+    "footer": {
+        "home": {
+            "br": "Início",
+            "en": "Home",
+            "es": "Inicio"
+        },
+        "about": {
+            "br": "Sobre",
+            "en": "About",
+            "es": "Acerca de"
+        }
+    },
+    "modules": {
+        "title": {
+            "br": "Módulos",
+            "en": "Modules",
+            "es": "Modulos"
+        },
+        "subtitle": {
+            "br": "Comece hoje mesmo",
+            "en": "Get started today!",
+            "es": "¡Empieza hoy mismo!"
+        }
+    }
+}

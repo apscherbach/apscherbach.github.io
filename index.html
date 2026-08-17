@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title data-i18n="head.title">Bem-vindo!</title>
+</head>
+<body>
+    <header>
+        <!--<img src="src/images/wave-header.svg" alt=""> -->
+        <nav id="navbar">
+            <i class="fa-solid fa-laptop-code" id="nav_logo" data-i18n="header.logo"> APS</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home" data-i18n="header.nav-item-start">Início</a>
+                </li>
+                <li class="nav-item" >
+                    <a href="#menu" data-i18n="header.nav-item-menu">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" data-i18n="header.nav-item-testimonials">Depoimentos</a>
+                </li>
+            </ul>
+            <ul id="nav_lang">
+                <button class="btn-default lang" data-lang="br">BR🇧🇷</button>
+                <button class="btn-default lang" data-lang="en">EN🇺🇸</button>
+                <button class="btn-default lang" data-lang="es">ES🇪🇸</button>
+            </ul>
+            <button id="mobile_btn">
+                <i class="fa solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home" data-i18n="header.nav-item-start">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" data-i18n="header.nav-item-menu">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" data-i18n="header.nav-item-testimonials">Depoimentos</a>
+                </li>
+            </ul>
+            <ul id="mobile_nav_lang">
+                <button class="btn-default lang" data-lang="br">BR🇧🇷</button>
+                <button class="btn-default lang" data-lang="en">EN🇺🇸</button>
+                <button class="btn-default lang" data-lang="es">ES🇪🇸</button>
+            </ul>
+        </div>
+    </header>
+    <main id="content">
+        <section id="home">
+            <!-- <div class="shape">
+
+            </div> -->
+            <div id="cta">
+                <h1 class="title" data-i18n="home.cta-title">
+                    <span>Domine</span> tecnologias que impulsionam o mercado.
+                </h1>
+                <p class="description" data-i18n="home.cta-description">
+                    Cada nova tecnologia aprendida representa uma nova oportunidade. Invista em conhecimento, desenvolva novas competências e esteja preparado para acompanhar a constante evolução da área de TI através de cursos desenvolvidos para quem busca aprendizado prático e aplicável.
+                </p>
+                <div id="cta_buttons">
+                    <a href="#menu" class="btn-default" data-i18n="home.cta-button">Ver cursos</a>
+
+                    <!-- <a href="tel:+5573999999999" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                            5573999999999
+                        </button>
+                        
+                    </a> -->
+                </div>
+
+                <div class="social-media-buttons">
+                    <!--<a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a> -->
+                    <!--<a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>-->
+                    <a href="https://linkedin.com/in/adriano-scherbach/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div id="banner">
+                <img src="src/images/foto-profissional-red.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title" data-i18n="menu.title">Cursos</h2>
+            <h3 class="section-subtitle" data-i18n="menu.subtitle">Comece hoje mesmo!!</h3>
+            <div id="courses">
+                <!-- curso opnsense -->
+                <div class="course">
+                    <div class="course-mark">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <img src="src/images/curso-opnsense.png" class="course-image" alt="">
+                    <h3 class="course-title" data-i18n="menu.opnsense.title">Guia do Firewall OPNSense</h3>
+                    <span class="course-description" data-i18n="menu.opnsense.description">Nunca foi tão fácil explorar uma nova ferramenta de Firewall!</span>
+                    <div class="course-hate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(60+)</span>
+                    </div>
+                    <div class="course-price">
+                        <h4 class="course-price-old">R$ 199,90</h4>
+                        <h4 class="course-price-value">R$ 29,90</h4>
+                        <button class="btn-default">
+                            <a href="https://www.udemy.com/course/guia-opnsense/?couponCode=AC9F797B801F8DD603E0" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-cart-plus"></i></a>
+                        </button>
+                    </div>
+                    <div class="course-avalability">
+                        <h4 data-i18n="menu.languages">Idiomas Disponíveis</h4>
+                        <ul id="nav_lang">
+<!--                            <button class="btn-default">
+                                BR🇧🇷
+                            </button>
+                            <button class="btn-default" >
+                                EN🇺🇸
+                            </button>
+                            <button class="btn-default">
+                                ES🇪🇸
+                            </button>-->
+                            BR🇧🇷
+                        </ul>
+                    </div>
+<!--                    <div class="course-explorer">
+                        <a href="opnsense.html" class="btn-default" data-i18n="menu.explorer"></a>
+                    </div> -->
+                </div>
+                <!-- curso pve8 -->
+                <div class="course">
+                    <div class="course-mark">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <img src="src/images/curso-pve8.png" class="course-image" alt="">
+                    <h3 class="course-title" data-i18n="menu.pve8.title">Proxmox VE 8.x - do Básico ao Avançado</h3>
+                    <span class="course-description" data-i18n="menu.pve8.description">Domine essa ferramenta incrível e os seus recursos avançados para virtualização com alta disponibilidade!</span>
+                    <div class="course-hate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(520+)</span>
+                    </div>
+                    <div class="course-price">
+                        <h4 class="course-price-old">R$ 199,90</h4>
+                        <h4 class="course-price-value">R$ 49,90</h4>
+                        <button class="btn-default">
+                            <a href="https://www.udemy.com/course/proxmox-ve-8x/?couponCode=0EB934004C9D1FB1C3B8" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-cart-plus"></i></a>
+                        </button>
+                    </div>
+                    <div class="course-avalability">
+                        <h4 data-i18n="menu.languages">Idiomas Disponíveis</h4>
+                        <ul id="nav_lang">
+<!--                            <button class="btn-default">
+                                BR🇧🇷
+                            </button>
+                            <button class="btn-default" >
+                                EN🇺🇸
+                            </button>
+                            <button class="btn-default">
+                                ES🇪🇸
+                            </button>-->
+                            BR🇧🇷
+                        </ul>
+                    </div>
+                    <!-- <div class="course-explorer">
+                        <button class="btn-default" data-i18n="menu.explorer">
+                            Explorar
+                        </button> 
+                    </div> -->
+                </div>
+                <!-- curso pve9 intro -->
+                <div class="course">
+                    <div class="course-mark">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <img src="src/images/curso-pve9-intro.png" class="course-image" alt="">
+                    <h3 class="course-title" data-i18n="menu.pve9-intro.title">Virtualização com Proxmox VE 9</h3>
+                    <span class="course-description" data-i18n="menu.pve9-intro.description">A melhor versão do Proxmox é a que você implanta com confiança!</span>
+                    <div class="course-hate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+                    <div class="course-price">
+                        <h4 class="course-price-old">R$ 249,90</h4>
+                        <h4 class="course-price-value">R$ 59,90</h4>
+                        <button class="btn-default">
+                            <a href="https://www.udemy.com/course/proxmox-ve-9-intro/?couponCode=21487AF2881946130843" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-cart-plus"></i></a>
+                        </button>
+                    </div>
+                    <div class="course-avalability">
+                        <h4 data-i18n="menu.languages">Idiomas Disponíveis</h4>
+                        <ul id="nav_lang">
+<!--                            <button class="btn-default">
+                                BR🇧🇷
+                            </button>
+                            <button class="btn-default" >
+                                EN🇺🇸
+                            </button>
+                            <button class="btn-default">
+                                ES🇪🇸
+                            </button>-->
+                            BR🇧🇷
+                        </ul>
+                    </div>
+                    <!-- <div class="course-explorer">
+                        <button class="btn-default" data-i18n="menu.explorer">
+                            Explorar
+                        </button> 
+                    </div> -->
+                </div>
+                <!-- curso pve 9 clusters -->
+                <div class="course">
+                    <div class="course-mark">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <img src="src/images/curso-pve9-clusters.png" class="course-image" alt="">
+                    <h3 class="course-title" data-i18n="menu.pve9-clusters.title">Proxmox VE 9: Clusters</h3>
+                    <span class="course-description" data-i18n="menu.pve9-clusters.description">Resiliência não é sobre evitar a falha, é sobre sobreviver a ela.</span>
+                    <div class="course-hate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+                    <div class="course-price">
+                        <h4 class="course-price-old">R$ 399,00</h4>
+                        <h4 class="course-price-value">R$ 79,90</h4>
+                        <button class="btn-default">
+                            <a href="https://www.udemy.com/course/proxmox-ve-9-clusters/?couponCode=4D1635A70268748ACB82" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-cart-plus"></i></a>
+                        </button>                    </div>
+                    <div class="course-avalability">
+                        <h4 data-i18n="menu.languages">Idiomas Disponíveis</h4>
+                        <ul id="nav_lang">
+<!--                            <button class="btn-default">
+                                BR🇧🇷
+                            </button>
+                            <button class="btn-default" >
+                                EN🇺🇸
+                            </button>
+                            <button class="btn-default">
+                                ES🇪🇸
+                            </button>-->
+                            BR🇧🇷
+                        </ul>
+                    </div>
+                    <!-- <div class="course-explorer">
+                        <button class="btn-default" data-i18n="menu.explorer">
+                            Explorar
+                        </button> 
+                    </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="">
+                <img src="src/images/imagem-feedback.png" alt="" id="testimonial-image">
+                <i class="fa-solid fa-bullhorn"></i>
+            </div>
+            <div id="testimonials-content">
+                <h2 class="section-title" data-i18n="testimonials.title">Avaliações</h2>
+                <h3 class="section-subtitle" data-i18n="testimonials.subtitle">Veja nosso impacto!</h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <i class="icon-graduate fa-solid fa-user-graduate"></i>
+
+                        <div class="feedback-content">
+                            <p>M. J. Pereira(Virtualização com Proxmox VE 9)
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Excelente o curso, vai direto ao ponto sem enrolação.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <i class="icon-graduate fa-solid fa-user-graduate"></i>
+
+                        <div class="feedback-content">
+                            <p>A. S. A. Araujo(Guia do Firewall OPNSense)
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Curso incrível! O professor domina muito o assunto, muito bem explicado, tudo no curso funciona corretamente. Já fiz outros cursos de OPNSense e esse é o melhor.
+                            </p>
+                        </div>
+                    </div>
+<!--                    <div class="feedback">
+                        <i class="icon-graduate fa-solid fa-user-graduate"></i>
+                        <div class="feedback-content">
+                            <p>J. R. L. Santos(Guia do Firewall OPNSense)
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                 O conteúdo do curso é muito bom e bem estruturado. Apenas como sugestão de melhoria, o professor poderia trabalhar um pouco mais a forma de apresentação oral, para que soe mais natural e menos como uma leitura. Isso certamente deixaria as aulas ainda mais envolventes.
+                            </p>
+                        </div>
+                    </div> -->
+                    <div class="feedback">
+                        <i class="icon-graduate fa-solid fa-user-graduate"></i>
+                        <div class="feedback-content">
+                            <p>H. F. T. Oliveira(Guia do Firewall OPNSense)
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Está superando, pois as funções que vão além do que esperava, como VPN e outras funções do firewall que podem servir para uso pessoal na rede. Boa didática e separação dos módulos. Foi o melhor investimento até agora em 2026.
+                            </p>
+                        </div>
+                    </div>
+<!--                   <div class="feedback">
+                        <i class="icon-graduate fa-solid fa-user-graduate"></i>
+
+                        <div class="feedback-content">
+                            <p>R. B. Paiva(Virtualização com Proxmox VE 9)
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Professor extremamente dedicado e preocupado com cada detalhe!
+                            </p>
+                        </div>
+                    </div> -->
+
+                    <div class="feedback">
+                        <i class="icon-graduate fa-solid fa-user-graduate"></i>
+
+                        <div class="feedback-content">
+                            <p>L. H. Macedo(Proxmox VE 8.x - do Básico ao Avançado)
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Quero deixar aqui meu agradecimento sincero pelas aulas sobre Proxmox. O conteúdo foi simplesmente excelente — muito bem estruturado, didático, claro e, acima de tudo, atualizado com os recursos mais recentes da plataforma.  Graças a essas aulas, consegui compreender todas as capacidades e possibilidades que o Proxmox oferece, desde a virtualização com KVM até o uso de containers, snapshots, alta disponibilidade, ZFS, gerenciamento em cluster e muito mais. Ferramentas que antes pareciam complexas agora fazem parte do meu dia a dia com muito mais segurança e confiança.  Parabéns pelo trabalho de qualidade e pelo jeito direto e acessível de ensinar. Aprender sobre virtualização com Proxmox nunca foi tão claro!  Muito obrigado!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <i class="icon-graduate fa-solid fa-user-graduate"></i>
+                        <div class="feedback-content">
+                            <p>H. S. Lima(Proxmox VE 8.x - do Básico ao Avançado)
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                O curso era o que eu precisava. Voltado à prática e simula problemas que acontecem em ambiente de produção. Parabéns ao instrutor!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <i class="icon-graduate fa-solid fa-user-graduate"></i>
+
+                        <div class="feedback-content">
+                            <p>V. I. S. Rocha(Proxmox VE 8.x - do Básico ao Avançado)
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Aprendi bastante com o curso, muito bem explicado e muita mão na massa.
+                            </p>
+                        </div>
+                    </div>
+<!--                    <div class="feedback">
+                        <i class="icon-graduate fa-solid fa-user-graduate"></i>
+
+                        <div class="feedback-content">
+                            <p>E. Ribeiro(Proxmox VE 8.x - do Básico ao Avançado)
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Professor com didática muito clara e bem explicita para quem é iniciante e até mesmo de nível mais avançado. Um dos melhores professores que já encontrei aqui nos cursos da plataforma.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <i class="icon-graduate fa-solid fa-user-graduate"></i>
+
+                        <div class="feedback-content">
+                            <p>J. R. Silva(Proxmox VE 8.x - do Básico ao Avançado)
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Simplesmente sensacional o curso, sou usuário do XCP-NG e fiz esse curso para entender melhor sobre como o Proxmox trata SR-IOV, o curso não aborda esse assunto diretamente, no entanto o restante me surpreendeu bastante!!!! O Professor tem uma excelente didática e domina muito o assunto, as aulas são bem embasada em teoria e tem bastante pratica, fora que o conteúdo está bem atualizado. Não vejo a hora dele lançar um novo curso sobre a solução de backup do Proxmox ou algo mais avançado. No mais super recomendo esse curso para quem esta começando ou já tem uma base de virtualização e quer agregar mais conhecimento.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <i class="icon-graduate fa-solid fa-user-graduate"></i>
+
+                        <div class="feedback-content">
+                            <p>L. A. (Proxmox VE 8.x - do Básico ao Avançado)
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Muito Top o curso!!
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="feedback">
+                        <i class="icon-graduate fa-solid fa-user-graduate"></i>
+
+                        <div class="feedback-content">
+                            <p>C. A.(Virtualização com Proxmox VE 9)
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Excelente conteúdo, e a forma de explicar.
+                            </p>
+                        </div>
+                    </div> -->
+
+
+
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <!-- <img src="src/images/wave-footer.svg" alt="">
+         <span>Aprendendo a cada dia!</span><br>
+         <span>Aprendendo a cada dia!</span><br>
+         <span>Aprendendo a cada dia!</span><br>
+         <span>Aprendendo a cada dia!</span><br>
+         <span>Aprendendo a cada dia!</span><br>
+         <span>Aprendendo a cada dia!</span><br>
+         <span>Aprendendo a cada dia!</span><br>
+         <span>Aprendendo a cada dia!</span> -->
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2026 Adriano Scherbach
+            </span>
+            <div class="social-media-buttons">
+                <!--<a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a> -->
+                <!--<a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>-->
+                <a href="https://linkedin.com/in/adriano-scherbach/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/javascript/script.js"> </script>
+</body>
+</html>
