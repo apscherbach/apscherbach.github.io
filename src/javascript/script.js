@@ -1,128 +1,58 @@
-
-$(document).ready(async function() {
-
-    await loadTranslations();
-
-    currentLanguage =
-        localStorage.getItem("language") ||
-        navigator.language.substring(0,2);
-
-    if (!["br","en","es"].includes(currentLanguage))
-        currentLanguage = "br";
-
-    translatePage();
-
-    $('#mobile_btn').on('click', function() {
-        $('#mobile_menu').toggleClass('active');
-        $('#mobile_btn').find('i').toggleClass('fa-bars fa-x');
+(() => {
+  'use strict';
+  const translations = window.APS_TRANSLATIONS;
+  const validLanguages = ['br', 'en', 'es'];
+  const languageTags = {br:'pt-BR', en:'en', es:'es'};
+  let currentLanguage = 'br';
+  function translate(key) {
+    const value = key.split('.').reduce((item, part) => item?.[part], translations);
+    return value?.[currentLanguage] ?? value?.br ?? key;
+  }
+  function setLanguage(language) {
+    currentLanguage = validLanguages.includes(language) ? language : 'br';
+    document.documentElement.lang = languageTags[currentLanguage];
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+      const key = element.dataset.i18n;
+      if (key === 'home.cta-title') element.innerHTML = translate(key);
+      else element.textContent = translate(key);
     });
-
-    const sections = $('section');
-    const navItems = $('.nav-item');
-
-    $(window).on('scroll', function() {
-        const header = $('header');
-        const scrollPosition = $(window).scrollTop() - header.outerHeight() + 75;
-
-        let activeSectionIndex = 0;
-
-        //console.log(scrollPosition);
-        if(scrollPosition <= 0) {
-            header.css('box-shadow','none');
-        } else {
-            header.css('box-shadow','5px 1px 5px rgba(0, 211, 162, 0.2)');
-        }
-
-        sections.each(function(i){
-            const section = $(this);
-            const sectionTop = section.offset().top - 96;
-            const sectionBotton = sectionTop + section.outerHeight();
-            if (scrollPosition >= sectionTop && scrollPosition < sectionBotton) {
-                activeSectionIndex = i;
-                return false;
-            }
-        });
-
-        navItems.removeClass('active');
-
-        $(navItems[activeSectionIndex]).addClass('active');
-
+    document.querySelectorAll('[data-i18n-aria]').forEach(element => element.setAttribute('aria-label',translate(element.dataset.i18nAria)));
+    document.querySelectorAll('[data-lang]').forEach(button => {
+      const selected = button.dataset.lang === currentLanguage;
+      button.classList.toggle('selected', selected);
+      button.setAttribute('aria-pressed', String(selected));
     });
-
-    ScrollReveal().reveal('#cta', {
-        origin: 'left',
-        duration: 2000,
-        distance: '40%'
+    const descriptions={br:'Cursos de Proxmox VE e OPNsense com Adriano Scherbach. Aprenda virtualização, firewall e alta disponibilidade na prática.',en:'Proxmox VE and OPNsense courses with Adriano Scherbach. Learn virtualization, firewalls and high availability through practice.',es:'Cursos de Proxmox VE y OPNsense con Adriano Scherbach. Aprende virtualización, firewall y alta disponibilidad en la práctica.'};
+    document.querySelector('meta[name="description"]').content=descriptions[currentLanguage];
+    try { localStorage.setItem('language', currentLanguage); } catch { /* The site also works without browser storage. */ }
+  }
+  let savedLanguage;
+  try { savedLanguage = localStorage.getItem('language'); } catch {}
+  const browserLanguage = navigator.language.slice(0,2);
+  setLanguage(savedLanguage || (browserLanguage === 'pt' ? 'br' : browserLanguage));
+  document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click',() => setLanguage(button.dataset.lang)));
+  const navigation = document.getElementById('navigation');
+  const menuButton = document.querySelector('.mobile-toggle');
+  function closeMenu() { navigation.classList.remove('open'); menuButton.setAttribute('aria-expanded','false'); }
+  menuButton.addEventListener('click', () => {
+    const open = navigation.classList.toggle('open');
+    menuButton.setAttribute('aria-expanded',String(open));
+  });
+  navigation.querySelectorAll('a').forEach(link => link.addEventListener('click',closeMenu));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape' && navigation.classList.contains('open')) {closeMenu();menuButton.focus();} });
+  window.addEventListener('resize', () => { if (window.innerWidth > 760) closeMenu(); });
+  document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
+    document.querySelectorAll('[data-filter]').forEach(filter => {
+      const selected = filter === button;
+      filter.classList.toggle('selected',selected);
+      filter.setAttribute('aria-pressed',String(selected));
     });
-
-    ScrollReveal().reveal('#courses', {
-        origin: 'right',
-        duration: 2000,
-        distance: '40%'
-    });
-
-    ScrollReveal().reveal('#testimonial-image', {
-        origin: 'left',
-        duration: 2000,
-        distance: '40%'
-    });
-
-        ScrollReveal().reveal('#testimonials-content', {
-        origin: 'right',
-        duration: 2000,
-        distance: '40%'
-    });
-
-});
-
-
-let translations = {};
-let currentLanguage = "br";
-
-async function loadTranslations() {
-    const response = await fetch("src/lang/translations.json");
-    //console.log(response.json());
-    translations = await response.json();
-}
-
-function t(key) {
-    const item = key
-        .split(".")
-        .reduce((obj, part) => obj?.[part], translations);
-    //console.log(item);
-    if (!item) return key;
-    //console.log(currentLanguage);
-    return item[currentLanguage]
-        ?? item.en
-        ?? Object.values(item)[0]
-        ?? key;
-}
-
-function translatePage() {
-
-    $("[data-i18n]").each(function () {
-        //console.log($(this).data("i18n"));
-        //$(this).text(t($(this).data("i18n")));
-        $(this).html(t($(this).data("i18n")));
-
-    });
-
-    /*$("[data-i18n-placeholder]").each(function () {
-        $(this).attr("placeholder", t($(this).data("i18n-placeholder")));
-    });*/
-
-}
-
-$(".lang").on("click", function () {
-    setLanguage($(this).data("lang"));
-    //console.log($(this).data("lang"));
-});
-
-function setLanguage(lang) {
-    currentLanguage = lang;
-    //console.log("Current language: " + lang);
-    localStorage.setItem("language", lang);
-
-    translatePage();
-}
-
+    document.querySelectorAll('.course').forEach(course => { course.hidden = button.dataset.filter !== 'all' && course.dataset.category !== button.dataset.filter; });
+  }));
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {if (entry.isIntersecting) navigation.querySelectorAll('a').forEach(link => link.classList.toggle('active',link.hash === '#' + entry.target.id));});
+    },{rootMargin:'-15% 0px -60% 0px',threshold:0});
+    document.querySelectorAll('main>section').forEach(section => observer.observe(section));
+  }
+})();

@@ -1,154 +1,286 @@
 {
-    "head": {
-        "title": {
-            "br": "Bem-vindo",
-            "en": "Welcome",
-            "es": "Bienvenido"
-        }
+  "head": {
+    "title": {
+      "br": "Adriano Scherbach | Cursos de infraestrutura de TI",
+      "en": "Adriano Scherbach | IT infrastructure courses",
+      "es": "Adriano Scherbach | Cursos de infraestructura de TI"
+    }
+  },
+  "header": {
+    "logo": {
+      "br": " APS",
+      "en": " APS",
+      "es": " APS"
     },
-    "header": {
-        "logo": {
-            "br": " APS",
-            "en": " APS",
-            "es": " APS"
-        },
-        "nav-item-start": {
-            "br": "Início",
-            "en": "Start",
-            "es": "Inicio"
-        },
-        "nav-item-menu": {
-            "br": "Cursos",
-            "en": "Courses",
-            "es": "Cursos"
-        },
-        "nav-item-testimonials": {
-            "br": "Depoimentos",
-            "en": "Testimonials",
-            "es": "Testimonios"
-        }
+    "nav-item-start": {
+      "br": "Início",
+      "en": "Home",
+      "es": "Inicio"
     },
+    "nav-item-menu": {
+      "br": "Cursos",
+      "en": "Courses",
+      "es": "Cursos"
+    },
+    "nav-item-testimonials": {
+      "br": "Depoimentos",
+      "en": "Testimonials",
+      "es": "Testimonios"
+    }
+  },
+  "home": {
+    "cta-title": {
+      "br": "Sua próxima conquista em TI <span>começa aqui.</span>",
+      "en": "Your next achievement in IT <span>starts here.</span>",
+      "es": "Tu próximo logro en TI <span>empieza aquí.</span>"
+    },
+    "cta-description": {
+      "br": "Aprenda virtualização, firewall e alta disponibilidade com cursos que conectam conhecimento técnico à prática. Desenvolva a confiança para dar o próximo passo.",
+      "en": "Learn virtualization, firewalls and high availability through courses that connect technical knowledge with practice. Build the confidence to take your next step.",
+      "es": "Aprende virtualización, firewall y alta disponibilidad con cursos que conectan el conocimiento técnico con la práctica. Desarrolla la confianza para dar el siguiente paso."
+    },
+    "cta-button": {
+      "br": "Explorar cursos",
+      "en": "Explore courses",
+      "es": "Explorar cursos"
+    },
+    "eyebrow": {
+      "br": "CONHECIMENTO QUE VIRA PRÁTICA",
+      "en": "KNOWLEDGE PUT INTO PRACTICE",
+      "es": "CONOCIMIENTO QUE SE VUELVE PRÁCTICA"
+    },
+    "secondary": {
+      "br": "Conhecer o instrutor",
+      "en": "Meet the instructor",
+      "es": "Conocer al instructor"
+    },
+    "instructor": {
+      "br": "SEU INSTRUTOR",
+      "en": "YOUR INSTRUCTOR",
+      "es": "TU INSTRUCTOR"
+    },
+    "role": {
+      "br": "Conhecimento técnico. Aplicação real.",
+      "en": "Technical knowledge. Real application.",
+      "es": "Conocimiento técnico. Aplicación real."
+    },
+    "topics": {
+      "br": "Virtualização · Redes · Infraestrutura",
+      "en": "Virtualization · Networks · Infrastructure",
+      "es": "Virtualización · Redes · Infraestructura"
+    },
+    "stats-courses": {
+      "br": "cursos para explorar",
+      "en": "courses to explore",
+      "es": "cursos para explorar"
+    },
+    "stats-practice": {
+      "br": "Foco na prática",
+      "en": "Practice first",
+      "es": "Enfoque práctico"
+    },
+    "stats-tools": {
+      "br": "Proxmox VE & OPNsense",
+      "en": "Proxmox VE & OPNsense",
+      "es": "Proxmox VE & OPNsense"
+    }
+  },
+  "menu": {
+    "title": {
+      "br": "Cursos",
+      "en": "Courses",
+      "es": "Cursos"
+    },
+    "subtitle": {
+      "br": "Aprenda hoje. Aplique na prática.",
+      "en": "Learn today. Put it into practice.",
+      "es": "Aprende hoy. Llévalo a la práctica."
+    },
+    "languages": {
+      "br": "Idiomas Disponíveis",
+      "en": "Available languages",
+      "es": "Idiomas disponibles"
+    },
+    "explorer": {
+      "br": "Explorar",
+      "en": "Discover",
+      "es": "Explorar"
+    },
+    "opnsense": {
+      "title": {
+        "br": "Guia do Firewall OPNSense",
+        "en": "OPNsense Firewall Guide",
+        "es": "Guía del Firewall OPNsense"
+      },
+      "description": {
+        "br": "Nunca foi tão fácil explorar uma nova ferramenta de Firewall!",
+        "en": "It has never been easier to explore a new Firewall tool!",
+        "es": "¡Explorar una nueva herramienta de Firewall nunca ha sido tan fácil!"
+      }
+    },
+    "pve8": {
+      "title": {
+        "br": "Proxmox VE 8.x - do Básico ao Avançado",
+        "en": "Proxmox VE 8.x - From Basic to Advanced",
+        "es": "Proxmox VE 8.x: De lo básico a lo avanzado"
+      },
+      "description": {
+        "br": "Domine essa ferramenta incrível e os seus recursos avançados para virtualização com alta disponibilidade!",
+        "en": "Master this incredible tool and its advanced features for high-availability virtualization!",
+        "es": "¡Domina esta increíble herramienta y sus funciones avanzadas para la virtualización de alta disponibilidad!"
+      }
+    },
+    "pve9-intro": {
+      "title": {
+        "br": "Virtualização com Proxmox VE 9",
+        "en": "Virtualization with Proxmox VE 9",
+        "es": "Virtualización con Proxmox VE 9"
+      },
+      "description": {
+        "br": "A melhor versão do Proxmox é a que você implanta com confiança!",
+        "en": "The best version of Proxmox is the one you deploy with confidence!",
+        "es": "¡La mejor versión de Proxmox es la que implementas con confianza!"
+      }
+    },
+    "pve9-clusters": {
+      "title": {
+        "br": "Proxmox VE 9: Clusters",
+        "en": "Proxmox VE 9: Clusters",
+        "es": "Proxmox VE 9: Clusters"
+      },
+      "description": {
+        "br": "Resiliência não é sobre evitar a falha, é sobre sobreviver a ela.",
+        "en": "Resilience isn't about avoiding failure; it's about surviving it.",
+        "es": "La resiliencia no se trata de evitar el fracaso, sino de sobrevivir a él."
+      }
+    },
+    "eyebrow": {
+      "br": "SEU PRÓXIMO PASSO",
+      "en": "YOUR NEXT STEP",
+      "es": "TU SIGUIENTE PASO"
+    },
+    "intro": {
+      "br": "Escolha o curso que acompanha o seu momento — dos fundamentos de virtualização à resiliência de clusters.",
+      "en": "Choose the course that fits your journey — from virtualization fundamentals to cluster resilience.",
+      "es": "Elige el curso que acompaña tu momento: desde los fundamentos de virtualización hasta la resiliencia de clusters."
+    },
+    "all": {
+      "br": "Todos os cursos",
+      "en": "All courses",
+      "es": "Todos los cursos"
+    },
+    "virtualization": {
+      "br": "Virtualização",
+      "en": "Virtualization",
+      "es": "Virtualización"
+    },
+    "security": {
+      "br": "Firewall & redes",
+      "en": "Firewall & networks",
+      "es": "Firewall y redes"
+    },
+    "buy": {
+      "br": "Ver curso na Udemy",
+      "en": "View course on Udemy",
+      "es": "Ver curso en Udemy"
+    },
+    "language": {
+      "br": "Aulas em português",
+      "en": "Taught in Portuguese",
+      "es": "Clases en portugués"
+    },
+    "reviews": {
+      "br": "avaliações",
+      "en": "reviews",
+      "es": "reseñas"
+    },
+    "notice": {
+      "br": "Preços e cupons reproduzidos do catálogo original. Consulte a Udemy para confirmar o valor e a disponibilidade da oferta.",
+      "en": "Prices and coupons reproduced from the original catalog. Check Udemy to confirm current pricing and offer availability.",
+      "es": "Precios y cupones reproducidos del catálogo original. Consulta Udemy para confirmar el precio y la disponibilidad de la oferta."
+    },
+    "empty": {
+      "br": "Nenhum curso nesta categoria.",
+      "en": "No courses in this category.",
+      "es": "No hay cursos en esta categoría."
+    }
+  },
+  "testimonials": {
+    "title": {
+      "br": "Avaliações",
+      "en": "Reviews",
+      "es": "Reseñas"
+    },
+    "subtitle": {
+      "br": "Aprendizado que faz a diferença.",
+      "en": "Learning that makes a difference.",
+      "es": "Aprendizaje que marca la diferencia."
+    },
+    "eyebrow": {
+      "br": "QUEM APRENDE, CONTA",
+      "en": "FROM THE PEOPLE WHO LEARN",
+      "es": "QUIEN APRENDE, CUENTA"
+    },
+    "intro": {
+      "br": "Experiências de alunos que levaram o conhecimento para o dia a dia. Depoimentos originais em português.",
+      "en": "Experiences from students who put their knowledge into practice. Original testimonials in Portuguese.",
+      "es": "Experiencias de alumnos que aplicaron el conocimiento en su día a día. Testimonios originales en portugués."
+    },
+    "more": {
+      "br": "Ler depoimento completo",
+      "en": "Read full testimonial",
+      "es": "Leer testimonio completo"
+    }
+  },
+  "footer": {
     "home": {
-        "cta-title": {
-            "br": "<span>Domine</span> conceitos e tecnologias que impulsionam o mercado.",
-            "en": "<span>Master</span> the concepts and technologies driving the market.",
-            "es": "<span>Domina</span> los conceptos y las tecnologías que impulsan el mercado."
-        },
-        "cta-description": {
-            "br": "Cada nova tecnologia aprendida representa uma nova oportunidade. Invista em conhecimento, desenvolva novas competências e esteja preparado para acompanhar a constante evolução da área de TI através de cursos desenvolvidos para quem busca aprendizado prático e aplicável.",
-            "en": "Every new technology mastered represents a new opportunity. Invest in knowledge, develop new skills, and be prepared to keep pace with the constantly evolving IT field through courses designed for those seeking practical, applicable learning.",
-            "es": "Cada nueva tecnología que se domina representa una nueva oportunidad. Invierta en conocimientos, desarrolle nuevas habilidades y prepárese para seguir el ritmo del sector de las TI —en constante evolución— mediante cursos diseñados para quienes buscan un aprendizaje práctico y aplicable."
-        },
-        "cta-button": {
-            "br": "Ver Cursos",
-            "en": "Show Courses",
-            "es": "Ver Cursos"
-        }
+      "br": "Início",
+      "en": "Home",
+      "es": "Inicio"
+    },
+    "about": {
+      "br": "Sobre",
+      "en": "About",
+      "es": "Acerca de"
+    },
+    "tagline": {
+      "br": "Aprendendo a cada dia. Evoluindo na prática.",
+      "en": "Learning every day. Growing through practice.",
+      "es": "Aprendiendo cada día. Evolucionando en la práctica."
+    }
+  },
+  "modules": {
+    "title": {
+      "br": "Módulos",
+      "en": "Modules",
+      "es": "Modulos"
+    },
+    "subtitle": {
+      "br": "Comece hoje mesmo",
+      "en": "Get started today!",
+      "es": "¡Empieza hoy mismo!"
+    }
+  },
+  "a11y": {
+    "skip": {
+      "br": "Ir para o conteúdo",
+      "en": "Skip to content",
+      "es": "Ir al contenido"
     },
     "menu": {
-        "title": {
-            "br": "Cursos",
-            "en": "Courses",
-            "es": "Cursos"
-        },
-        "subtitle": {
-            "br": "Comece hoje mesmo",
-            "en": "Get started today!",
-            "es": "¡Empieza hoy mismo!"
-        },
-        "languages": {
-            "br": "Idiomas Disponíveis",
-            "en": "Available languages",
-            "es": "Idiomas disponibles"
-        },
-        "explorer": {
-	        "br": "Explorar",
-	        "en": "Discover",
-	        "es": "Explorar"
-    	},
-        "opnsense": {
-            "title": {
-	            "br": "Guia do Firewall OPNSense",
-                "en": "OPNsense Firewall Guide",
-                "es": "Guía del Firewall OPNsense"
-	        },
-            "description": {
-                "br": "Nunca foi tão fácil explorar uma nova ferramenta de Firewall!",
-                "en": "It has never been easier to explore a new Firewall tool!",
-                "es": "¡Explorar una nueva herramienta de Firewall nunca ha sido tan fácil!"
-            }
-        },
-        "pve8": {
-            "title": {
-                "br": "Proxmox VE 8.x - do Básico ao Avançado",
-                "en": "Proxmox VE 8.x - From Basic to Advanced",
-                "es": "Proxmox VE 8.x: De lo básico a lo avanzado"
-            },
-            "description": {
-                "br": "Domine essa ferramenta incrível e os seus recursos avançados para virtualização com alta disponibilidade!",
-                "en": "Master this incredible tool and its advanced features for high-availability virtualization!",
-                "es": "¡Domina esta increíble herramienta y sus funciones avanzadas para la virtualización de alta disponibilidad!"
-            }
-        },
-        "pve9-intro": {
-            "title": {
-                "br": "Virtualização com Proxmox VE 9",
-                "en": "Virtualization with Proxmox VE 9",
-                "es": "Virtualización con Proxmox VE 9"
-            },
-            "description": {
-                "br": "A melhor versão do Proxmox é a que você implanta com confiança!",
-                "en": "The best version of Proxmox is the one you deploy with confidence!",
-                "es": "¡La mejor versión de Proxmox es la que implementas con confianza!"
-            }
-        },
-        "pve9-clusters": {
-            "title": {
-                "br": "Proxmox VE 9: Clusters",
-                "en": "Proxmox VE 9: Clusters",
-                "es": "Proxmox VE 9: Clusters"
-            },
-            "description": {
-                "br": "Resiliência não é sobre evitar a falha, é sobre sobreviver a ela.",
-                "en": "Resilience isn't about avoiding failure; it's about surviving it.",
-                "es": "La resiliencia no se trata de evitar el fracaso, sino de sobrevivir a él."
-            }
-        }
+      "br": "Abrir ou fechar navegação",
+      "en": "Open or close navigation",
+      "es": "Abrir o cerrar navegación"
     },
-    "testimonials": {
-        "title": {
-            "br": "Avaliações",
-            "en": "Reviews",
-            "es": "Reseñas"
-        },
-        "subtitle": {
-            "br": "Veja nosso impacto!",
-            "en": "See our impact!",
-            "es": "¡Vea nuestro impacto!"
-        }
+    "language": {
+      "br": "Idioma do site",
+      "en": "Site language",
+      "es": "Idioma del sitio"
     },
-    "footer": {
-        "home": {
-            "br": "Início",
-            "en": "Home",
-            "es": "Inicio"
-        },
-        "about": {
-            "br": "Sobre",
-            "en": "About",
-            "es": "Acerca de"
-        }
-    },
-    "modules": {
-        "title": {
-            "br": "Módulos",
-            "en": "Modules",
-            "es": "Modulos"
-        },
-        "subtitle": {
-            "br": "Comece hoje mesmo",
-            "en": "Get started today!",
-            "es": "¡Empieza hoy mismo!"
-        }
+    "navigation": {
+      "br": "Navegação principal",
+      "en": "Main navigation",
+      "es": "Navegación principal"
     }
+  }
 }

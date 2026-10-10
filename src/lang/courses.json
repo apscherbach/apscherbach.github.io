@@ -1,0 +1,82 @@
+[
+  {
+    "id": "opnsense",
+    "title": {
+      "br": "Guia do Firewall OPNSense",
+      "en": "OPNsense Firewall Guide",
+      "es": "Guía del Firewall OPNsense"
+    },
+    "description": {
+      "br": "Nunca foi tão fácil explorar uma nova ferramenta de Firewall!",
+      "en": "It has never been easier to explore a new Firewall tool!",
+      "es": "¡Explorar una nueva herramienta de Firewall nunca ha sido tan fácil!"
+    },
+    "image": "src/images/curso-opnsense.png",
+    "reviews": "60+",
+    "oldPrice": "R$ 199,90",
+    "price": "R$ 29,90",
+    "url": "https://www.udemy.com/course/guia-opnsense/?couponCode=AC9F797B801F8DD603E0",
+    "language": "pt-BR",
+    "category": "security"
+  },
+  {
+    "id": "pve8",
+    "title": {
+      "br": "Proxmox VE 8.x - do Básico ao Avançado",
+      "en": "Proxmox VE 8.x - From Basic to Advanced",
+      "es": "Proxmox VE 8.x: De lo básico a lo avanzado"
+    },
+    "description": {
+      "br": "Domine essa ferramenta incrível e os seus recursos avançados para virtualização com alta disponibilidade!",
+      "en": "Master this incredible tool and its advanced features for high-availability virtualization!",
+      "es": "¡Domina esta increíble herramienta y sus funciones avanzadas para la virtualización de alta disponibilidad!"
+    },
+    "image": "src/images/curso-pve8.png",
+    "reviews": "520+",
+    "oldPrice": "R$ 199,90",
+    "price": "R$ 49,90",
+    "url": "https://www.udemy.com/course/proxmox-ve-8x/?couponCode=0EB934004C9D1FB1C3B8",
+    "language": "pt-BR",
+    "category": "virtualization"
+  },
+  {
+    "id": "pve9-intro",
+    "title": {
+      "br": "Virtualização com Proxmox VE 9",
+      "en": "Virtualization with Proxmox VE 9",
+      "es": "Virtualización con Proxmox VE 9"
+    },
+    "description": {
+      "br": "A melhor versão do Proxmox é a que você implanta com confiança!",
+      "en": "The best version of Proxmox is the one you deploy with confidence!",
+      "es": "¡La mejor versión de Proxmox es la que implementas con confianza!"
+    },
+    "image": "src/images/curso-pve9-intro.png",
+    "reviews": "20+",
+    "oldPrice": "R$ 249,90",
+    "price": "R$ 59,90",
+    "url": "https://www.udemy.com/course/proxmox-ve-9-intro/?couponCode=21487AF2881946130843",
+    "language": "pt-BR",
+    "category": "virtualization"
+  },
+  {
+    "id": "pve9-clusters",
+    "title": {
+      "br": "Proxmox VE 9: Clusters",
+      "en": "Proxmox VE 9: Clusters",
+      "es": "Proxmox VE 9: Clusters"
+    },
+    "description": {
+      "br": "Resiliência não é sobre evitar a falha, é sobre sobreviver a ela.",
+      "en": "Resilience isn't about avoiding failure; it's about surviving it.",
+      "es": "La resiliencia no se trata de evitar el fracaso, sino de sobrevivir a él."
+    },
+    "image": "src/images/curso-pve9-clusters.png",
+    "reviews": "100+",
+    "oldPrice": "R$ 399,00",
+    "price": "R$ 79,90",
+    "url": "https://www.udemy.com/course/proxmox-ve-9-clusters/?couponCode=66CB955DEFACEABEDBF8",
+    "language": "pt-BR",
+    "category": "virtualization"
+  }
+]
