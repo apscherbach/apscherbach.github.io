@@ -222,14 +222,78 @@
       "es": "QUIEN APRENDE, CUENTA"
     },
     "intro": {
-      "br": "Experiências de alunos que levaram o conhecimento para o dia a dia. Depoimentos originais em português.",
-      "en": "Experiences from students who put their knowledge into practice. Original testimonials in Portuguese.",
-      "es": "Experiencias de alumnos que aplicaron el conocimiento en su día a día. Testimonios originales en portugués."
+      "br": "Experiências de alunos que levaram o conhecimento para o dia a dia.",
+      "en": "Experiences from students who put their knowledge into practice.",
+      "es": "Experiencias de alumnos que aplicaron el conocimiento en su día a día."
     },
     "more": {
       "br": "Ler depoimento completo",
       "en": "Read full testimonial",
       "es": "Leer testimonio completo"
+    },
+    "items": {
+      "review1": {
+        "quote": {
+          "br": "Excelente o curso, vai direto ao ponto sem enrolação.",
+          "en": "Excellent course; it gets straight to the point without unnecessary digressions.",
+          "es": "Excelente curso; va directo al punto, sin rodeos."
+        }
+      },
+      "review2": {
+        "quote": {
+          "br": "Curso incrível! O professor domina muito o assunto, muito bem explicado, tudo no curso funciona corretamente. Já fiz outros cursos de OPNSense e esse é o melhor.",
+          "en": "Amazing course! The instructor really knows the subject, explains everything very well, and everything in the course works correctly. I have taken other OPNsense courses, and this one is the best.",
+          "es": "¡Curso increíble! El profesor domina muy bien el tema, lo explica todo muy bien y todo lo que se muestra en el curso funciona correctamente. Ya he hecho otros cursos de OPNsense y este es el mejor."
+        }
+      },
+      "review3": {
+        "quote": {
+          "br": "Está superando, pois as funções que vão além do que esperava, como VPN e outras funções do firewall que podem servir para uso pessoal na rede. Boa didática e separação dos módulos. Foi o melhor investimento até agora em 2026.",
+          "en": "It is exceeding my expectations, with features that go beyond what I expected, such as VPN and other firewall functions that can be useful on a personal network. Good teaching and module organization. It has been my best investment so far in 2026.",
+          "es": "Está superando mis expectativas, con funciones que van más allá de lo que esperaba, como VPN y otras funciones del firewall que pueden servir para uso personal en la red. Buena didáctica y organización de los módulos. Ha sido mi mejor inversión hasta ahora en 2026."
+        }
+      },
+      "review4": {
+        "quote": {
+          "br": "Quero deixar aqui meu agradecimento sincero pelas aulas sobre Proxmox. O conteúdo foi simplesmente excelente — muito bem estruturado, didático, claro e, acima de tudo, atualizado com os recursos mais recentes da plataforma.  Graças a essas aulas, consegui compreender todas as capacidades e possibilidades que o Proxmox oferece, desde a virtualização com KVM até o uso de containers, snapshots, alta disponibilidade, ZFS, gerenciamento em cluster e muito mais. Ferramentas que antes pareciam complexas agora fazem parte do meu dia a dia com muito mais segurança e confiança.  Parabéns pelo trabalho de qualidade e pelo jeito direto e acessível de ensinar. Aprender sobre virtualização com Proxmox nunca foi tão claro!  Muito obrigado!",
+          "en": "I want to express my sincere thanks for the Proxmox lessons. The content was simply excellent — very well structured, easy to follow, clear and, above all, up to date with the platform’s latest features. Thanks to these lessons, I was able to understand all the capabilities and possibilities Proxmox offers, from virtualization with KVM to containers, snapshots, high availability, ZFS, cluster management and much more. Tools that once seemed complex are now part of my daily work, with much greater assurance and confidence. Congratulations on the quality of your work and your direct, accessible way of teaching. Learning about virtualization with Proxmox has never been so clear! Thank you very much!",
+          "es": "Quiero expresar mi sincero agradecimiento por las clases sobre Proxmox. El contenido fue sencillamente excelente: muy bien estructurado, didáctico, claro y, sobre todo, actualizado con las funciones más recientes de la plataforma. Gracias a estas clases, pude comprender todas las capacidades y posibilidades que ofrece Proxmox, desde la virtualización con KVM hasta el uso de contenedores, snapshots, alta disponibilidad, ZFS, gestión de clusters y mucho más. Herramientas que antes parecían complejas ahora forman parte de mi día a día con mucha más seguridad y confianza. Felicitaciones por el trabajo de calidad y por la forma directa y accesible de enseñar. ¡Aprender sobre virtualización con Proxmox nunca había sido tan claro! ¡Muchas gracias!"
+        },
+        "preview": {
+          "br": "Quero deixar aqui meu agradecimento sincero pelas aulas sobre Proxmox. O conteúdo foi simplesmente excelente — muito bem estruturado, didático, claro e, acima de tudo, atualizado com os recursos mais recentes da plataforma.  Graças a essas aulas, consegui…",
+          "en": "I want to express my sincere thanks for the Proxmox lessons. The content was simply excellent — very well structured, easy to follow, clear and, above all, up to date with the platform’s latest features. Thanks to these lessons, I was able to understand all…",
+          "es": "Quiero expresar mi sincero agradecimiento por las clases sobre Proxmox. El contenido fue sencillamente excelente: muy bien estructurado, didáctico, claro y, sobre todo, actualizado con las funciones más recientes de la plataforma. Gracias a estas clases, pude…"
+        }
+      },
+      "review5": {
+        "quote": {
+          "br": "O curso era o que eu precisava. Voltado à prática e simula problemas que acontecem em ambiente de produção. Parabéns ao instrutor!",
+          "en": "The course was exactly what I needed. It focuses on practice and simulates problems that occur in production environments. Congratulations to the instructor!",
+          "es": "El curso era lo que necesitaba. Está orientado a la práctica y simula problemas que ocurren en entornos de producción. ¡Felicitaciones al instructor!"
+        }
+      },
+      "review6": {
+        "quote": {
+          "br": "Aprendi bastante com o curso, muito bem explicado e muita mão na massa.",
+          "en": "I learned a lot from the course. Everything is explained very well, with plenty of hands-on practice.",
+          "es": "Aprendí mucho con el curso; está muy bien explicado y hay mucha práctica."
+        }
+      }
+    },
+    "translated": {
+      "br": "Depoimento traduzido",
+      "en": "Translated testimonial",
+      "es": "Testimonio traducido"
+    },
+    "original": {
+      "br": "Ver original em português",
+      "en": "View Portuguese original",
+      "es": "Ver original en portugués"
+    },
+    "originalLanguage": {
+      "br": "Original em português",
+      "en": "Originally in Portuguese",
+      "es": "Original en portugués"
     }
   },
   "footer": {

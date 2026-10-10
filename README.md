@@ -14,7 +14,7 @@ Execute `python3 -m http.server 4173` na raiz e abra `http://localhost:4173`. Ta
 - `src/styles/styles.css`: design e layouts responsivos.
 - `src/javascript/script.js`: idioma persistente, filtros e navegação.
 
-As aulas continuam indicadas como português nos três idiomas da interface. Depoimentos são mantidos em português, sem alterar o texto dos alunos. Preços e cupons correspondem ao catálogo de origem; sua validade deve ser confirmada na Udemy.
+As aulas continuam indicadas como português nos três idiomas da interface. Cada depoimento indica português como idioma original. Depoimentos acompanham o idioma selecionado, incluindo o texto completo e o título do curso. Nas versões em inglês e espanhol, uma indicação de tradução permite consultar o original em português, preservado sem alterações. Preços e cupons correspondem ao catálogo de origem; sua validade deve ser confirmada na Udemy.
 
 ## Publicação
 

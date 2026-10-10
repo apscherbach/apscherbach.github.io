@@ -17,6 +17,10 @@
       else element.textContent = translate(key);
     });
     document.querySelectorAll('[data-i18n-aria]').forEach(element => element.setAttribute('aria-label',translate(element.dataset.i18nAria)));
+    document.querySelectorAll('.translation-context').forEach(context => {
+      context.hidden = currentLanguage === 'br';
+      if (context.hidden) context.querySelector('details').open = false;
+    });
     document.querySelectorAll('[data-lang]').forEach(button => {
       const selected = button.dataset.lang === currentLanguage;
       button.classList.toggle('selected', selected);
